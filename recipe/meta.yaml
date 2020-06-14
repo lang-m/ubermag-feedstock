@@ -1,6 +1,6 @@
 {% set name = "ubermag" %}
-{% set version = "0.1" %}
-{% set sha256 = "8cacbb83f1f3c61338194ae83029c06b54ec9f4a10cb9ec365cccac16b42f0d4" %}
+{% set version = "0.1.1" %}
+{% set sha256 = "428d206c93644f570287e6b0e21daa745174dfbd27f2a11757bbcb1e30f45a72" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: pip install --no-deps . -vvv
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
@@ -21,8 +21,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - oommfc
-    - pytest
+    - oommfc ==0.8.17
 
 test:
   imports:
@@ -33,17 +32,14 @@ test:
 
 about:
   home: http://ubermag.github.io/
-  license: BSD-3-clause
-  summary: A Python meta package for the Ubermag project.
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-
-  description: |
-    `ubermag` is a Python meta package of the Ubermag project.
-    It is available on all major operating systems (Windows, MacOS, Linux) and requires Python 3.6 or higher.
+  summary: Meta package for Ubermag project.
   doc_url: http://ubermag.readthedocs.io
   dev_url: https://github.com/ubermag/ubermag
 
 extra:
   recipe-maintainers:
     - marijanbeg
+    - fangohr
