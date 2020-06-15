@@ -3,14 +3,12 @@ About ubermag
 
 Home: http://ubermag.github.io/
 
-Package license: BSD-3-clause
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: A Python meta package for the Ubermag project.
+Summary: Meta package for Ubermag project.
 
-`ubermag` is a Python meta package of the Ubermag project.
-It is available on all major operating systems (Windows, MacOS, Linux) and requires Python 3.6 or higher.
 
 
 Current build status
@@ -118,5 +116,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@fangohr](https://github.com/fangohr/)
 * [@marijanbeg](https://github.com/marijanbeg/)
 
