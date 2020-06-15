@@ -1,6 +1,6 @@
 {% set name = "ubermag" %}
-{% set version = "0.1.1" %}
-{% set sha256 = "428d206c93644f570287e6b0e21daa745174dfbd27f2a11757bbcb1e30f45a72" %}
+{% set version = "0.21" %}
+{% set sha256 = "ec733d9c7d58d73fd43200e6a5d595fa4c80728bbf64907da02efda5d451fdba" %}
 
 package:
   name: {{ name|lower }}
