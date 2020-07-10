@@ -5,7 +5,7 @@ Home: http://ubermag.github.io/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Meta package for Ubermag project.
 
