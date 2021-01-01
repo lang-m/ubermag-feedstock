@@ -1,6 +1,6 @@
 {% set name = "ubermag" %}
-{% set version = "0.24" %}
-{% set sha256 = "5f2840e6bef9c9c801785853da343768bc2dc9b608addf8de8b7132b93705408" %}
+{% set version = "0.25" %}
+{% set sha256 = "f1f12ecd7019805471e6e2a3cd5426f4b938c0f5177d19f12ff70dc98ff9546a" %}
 
 package:
   name: {{ name|lower }}
@@ -16,7 +16,7 @@ build:
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
-  build:
+  host:
     - python >=3.6
     - pip
   run:
