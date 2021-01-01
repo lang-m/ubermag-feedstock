@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ubermag-feedstock/blob/master/LICENSE.txt)
 
-Summary: Meta package for Ubermag project.
+Summary: Meta package for the Ubermag project.
 
 Development: https://github.com/ubermag/ubermag
 
@@ -119,5 +119,6 @@ Feedstock Maintainers
 =====================
 
 * [@fangohr](https://github.com/fangohr/)
+* [@lang-m](https://github.com/lang-m/)
 * [@marijanbeg](https://github.com/marijanbeg/)
 
