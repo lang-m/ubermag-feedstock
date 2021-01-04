@@ -1,5 +1,5 @@
 {% set name = "ubermag" %}
-{% set version = "0.40" %}
+{% set version = "0.50" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c6f740d978b41f5ce9fdd19106886dcff60915fff38dededda0980e363f1e27a
+  sha256: 67cec67ce22fd9e1f50b4150f72889822f1c79613ee111ee23c28351650e7348
 
 build:
   noarch: python
@@ -20,8 +20,8 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - oommfc ==0.9
-    - micromagneticdata ==0.4
+    - oommfc ==0.10
+    - micromagneticdata ==0.5
 
 test:
   imports:
