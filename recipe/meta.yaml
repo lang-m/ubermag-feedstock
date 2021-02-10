@@ -1,5 +1,5 @@
 {% set name = "ubermag" %}
-{% set version = "0.50" %}
+{% set version = "0.51" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 67cec67ce22fd9e1f50b4150f72889822f1c79613ee111ee23c28351650e7348
+  sha256: 4373857a2ddbbdc18f6659aef3bd17f5b792364c09d749787af7dca1e025df68
 
 build:
   noarch: python
