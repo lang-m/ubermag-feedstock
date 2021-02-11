@@ -20,8 +20,8 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - oommfc ==0.10
-    - micromagneticdata ==0.5
+    - oommfc ==0.10.1
+    - micromagneticdata ==0.5.1
 
 test:
   imports:
