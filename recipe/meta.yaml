@@ -20,8 +20,14 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - oommfc ==0.10.1
-    - micromagneticdata ==0.5.1
+    - discretisedfield ==0.60.0
+    - mag2exp ==0.60.0
+    - micromagneticdata ==0.60.0
+    - micromagneticmodel ==0.60.0
+    - micromagnetictests ==0.60.0
+    - oommfc ==0.60.0
+    - ubermagtable ==0.60.0
+    - ubermagutil ==0.60.0
 
 test:
   imports:
@@ -36,7 +42,7 @@ about:
   license_family: BSD
   license_file: LICENSE
   summary: Meta package for the Ubermag project.
-  doc_url: http://ubermag.readthedocs.io
+  doc_url: https://ubermag.github.io/documentation/ubermag.html
   dev_url: https://github.com/ubermag/ubermag
 
 extra:
@@ -44,3 +50,4 @@ extra:
     - marijanbeg
     - fangohr
     - lang-m
+    - samjrholt
