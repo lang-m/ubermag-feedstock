@@ -20,14 +20,14 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - discretisedfield ==0.60.0
-    - mag2exp ==0.60.0
-    - micromagneticdata ==0.60.0
-    - micromagneticmodel ==0.60.0
-    - micromagnetictests ==0.60.0
-    - oommfc ==0.60.0
-    - ubermagtable ==0.60.0
-    - ubermagutil ==0.60.0
+    - discretisedfield ==0.61.0
+    - mag2exp ==0.61.0
+    - micromagneticdata ==0.61.0
+    - micromagneticmodel ==0.61.0
+    - micromagnetictests ==0.61.0
+    - oommfc ==0.61.0
+    - ubermagtable ==0.61.0
+    - ubermagutil ==0.61.0
 
 test:
   imports:
@@ -51,3 +51,4 @@ extra:
     - fangohr
     - lang-m
     - samjrholt
+    - swapneelap
