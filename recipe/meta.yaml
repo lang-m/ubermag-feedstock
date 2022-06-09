@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - discretisedfield ==0.62.0
+    - discretisedfield ==0.62.1
     - mag2exp ==0.61.1
     - micromagneticdata ==0.62.0
     - micromagneticmodel ==0.61.1
